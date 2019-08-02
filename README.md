@@ -70,7 +70,7 @@ $ yarn start
 
 Para deployment em produção
 ```console
-$ yarn prod
+$ yarn build
 ```
 
 ## License
