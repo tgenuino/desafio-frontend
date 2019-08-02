@@ -1,0 +1,181 @@
+.card-container
+    width 100%
+    height auto
+    background-color #fff2e4
+    overflow hidden
+    .top-container
+        display flex
+        flex-direction row
+        justify-content space-between
+        align-items center
+        position relative
+        top 10px
+        margin-top 20px
+        .localidade
+            font-weight bold
+            margin-left 20px
+            
+        .close
+            color #ff860e
+            cursor pointer
+            margin-right 20px
+    .resume-container
+        display flex
+        flex-direction column
+        margin-top 25px
+        margin-left 25px
+        margin-right 25px 
+        .resume-heading
+            font-size 40px
+            font-weight bold
+            margin-bottom 12.5px
+        .extremes
+            width 300px
+            .min
+                font-size 1rem
+                span 
+                    margin-right  5px
+                    color #ff9a00
+                    font-weight bolder
+                    font-size 1.2rem
+            .max
+                margin-left 5px
+                font-size 1rem
+                span 
+                    margin-right  5px
+                    color #ff9a00
+                    font-weight bolder
+                    font-size 1.2rem
+            .sensation
+                margin-left 50px
+                font-weight 400
+                b
+                    margin-left 5px
+                    font-size 1rem
+        .details
+            margin-top 20px
+            width 300px
+            .wind
+                margin-left 5px
+                b
+                    font-size 1rem
+            .humidity
+                margin-left 35px
+                font-weight 400
+                b
+                    margin-left 5px
+                    font-size 1rem
+    hr
+        border 1px solid #ff9832
+        width 450px
+    .forecasts
+        display flex
+        align-items center
+        justify-content space-around
+        width 450px
+        padding-left 0px
+        list-style none
+        .f-item
+            display flex
+            flex-direction column
+            justify-content center
+            align-items center
+            margin-left 5px
+            margin-right 5px
+            span
+                font-weight bold
+                color #ff8000
+                opacity 0.9
+
+@media (min-width: 576px)
+    .card-container
+        width 500px
+        height auto
+        background-color #fff2e4
+        margin-top 20px
+        .top-container
+            display flex
+            flex-direction row
+            justify-content space-between
+            align-items center
+            margin-top 20px
+            .localidade
+                position relative
+                left 50px
+                font-weight bold
+                
+            .close
+                color #ff860e
+                cursor pointer
+                font-weight bolder
+                position relative
+                right 25px
+        .resume-container
+            display flex
+            flex-direction column
+            margin-top 25px
+            margin-left 50px
+            margin-right 50px 
+            .resume-heading
+                font-size 40px
+                font-weight bold
+                margin-bottom 12.5px
+            .extremes
+                width 300px
+                .min
+                    font-size 1rem
+                    span 
+                        margin-right  5px
+                        color #ff9a00
+                        font-weight bolder
+                        font-size 1.2rem
+                .max
+                    margin-left 5px
+                    font-size 1rem
+                    span 
+                        margin-right  5px
+                        color #ff9a00
+                        font-weight bolder
+                        font-size 1.2rem
+                .sensation
+                    margin-left 50px
+                    font-weight 400
+                    b
+                        margin-left 5px
+                        font-size 1rem
+            .details
+                margin-top 20px
+                width 300px
+                .wind
+                    margin-left 5px
+                    b
+                        font-size 1rem
+                .humidity
+                    margin-left 25px
+                    font-weight 400
+                    b
+                        margin-left 5px
+                        font-size 1rem
+        hr
+            border 1px solid #ff9832
+            width 450px
+        .forecasts
+            display flex
+            align-items center
+            justify-content space-around
+            width 450px
+            margin-left: 25px;
+            margin-top 10px
+            padding-left 0px
+            list-style none
+            .f-item
+                display flex
+                flex-direction column
+                justify-content center
+                align-items center
+                margin-left 5px
+                margin-right 5px
+                span
+                    font-weight bold
+                    color #ff8000
+                    opacity 0.9

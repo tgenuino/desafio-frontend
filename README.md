@@ -45,3 +45,33 @@ Mobile responsivo:
 * Branches com readme e instruções de implantação serão bem vindos.
 * Pré-processadores CSS como Stylus também.
 * Que tal utilizar BEM nos identificadores css? http://getbem.com/naming/ 
+
+# Início do projeto
+
+## Instalação
+
+Use o executador de pacotes [npx](https://pip.pypa.io/en/stable/) do [npm](https://pip.pypa.io/en/stable/) para instalar o create-react-app no projeto. Use o gerenciador de pacotes do Facebook o [yarn](https://pip.pypa.io/en/stable/). Ejete o CRA para alterações nas configurações do webpack.
+
+```console
+$ npx create-react-app .
+```
+
+```console
+$ yarn eject
+```
+
+## Uso
+
+Para desenvolvimento
+
+```console
+$ yarn start
+```
+
+Para deployment em produção
+```console
+$ yarn build
+```
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
