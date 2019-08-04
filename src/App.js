@@ -1,11 +1,4 @@
-import React from 'react';
+import Home from './pages/Home/index'
+import "antd/dist/antd.css"
 
-function App() {
-  return (
-    <div className="App">
-      <h1>Olá Will</h1>
-    </div>
-  );
-}
-
-export default App;
+export default Home;
