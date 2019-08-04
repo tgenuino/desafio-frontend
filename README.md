@@ -1,47 +1,68 @@
-# Teste Frontend
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Available Scripts
 
-## Bem-vindo
+In the project directory, you can run:
 
-O Redação Online foi a primeira plataforma de correções de redação do Brasil e criou um método inovador de correção de redação ENEM, vestibulares e concursos, que em poucos meses aperfeiçoa as notas de qualquer aluno que use nossa ferramenta através do acompanhamento dos melhores especialistas treinados e certificados do Brasil.
+### `npm start`
 
-Em 2017 nos tornamos a única Startup de Educação no mundo acelerada pelo Facebook, recebemos o prêmio “Talentos da Educação” da Fundação Lemann e o InovAtiva Brasil, o que é um claro reconhecimento do impacto que causamos na educação brasileira.
+Runs the app in the development mode.<br>
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-A correção é humanizada pois queremos estar junto com você no momento de enfrentar uma das provas mais difíceis do ENEM, vestibular ou concursos, que é a redação. Nós acreditamos em você e por isso os nossos resultados são incríveis: a cada 10 alunos do Redação Online, 8 aumentaram suas notas em até 400 pontos. Lembre-se: na Redação não dá pra chutar.
+The page will reload if you make edits.<br>
+You will also see any lint errors in the console.
 
-Nosso método é simples, intuitivo e gera resultados. O Redação Online é muito mais que uma correção, é uma experiência completa que vai te levar até a aprovação dos seus sonhos!
+### `npm test`
 
-## Aprendizado e desenvolvimento
+Launches the test runner in the interactive watch mode.<br>
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Você pode esperar um trabalho intenso em projetos HTML5/CSS3 com o framework React, do facebook, e boas práticas em Redux, um mecanismo de gerenciamento de estado de aplicações, além de diversos componentes javascript. 
+### `npm run build`
 
-O aprendizado se dá através de projetos reais, na construção de sites e aplicações que ajudem causas sociais de impacto. Conforme a evolução, serão feitas transições para projetos de consultoria em ambientes de negócio complexos.
+Builds the app for production to the `build` folder.<br>
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## Como participar
+The build is minified and the filenames include the hashes.<br>
+Your app is ready to be deployed!
 
-* Crie um novo fork e branch com seu nome-sobrenome e faça um pull request quando estiver pronto. Iremos fazer code review.
-* Envie um email para contato@redacaonline.com.br informando quando terminar o teste!
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## O desafio
+### `npm run eject`
 
-Vamos dar uma olhada na previsão do tempo? A meta é criarmos uma página simples, que consuma a API do Yahoo de previsão do tempo (https://developer.yahoo.com/weather/). O layout final deverá ficar o mais próximo possível da versão abaixo (sim, vamos ter a versão responsiva mobile e a versão desktop):
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-Web:
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-![alt tag](https://s3-us-west-1.amazonaws.com/1sti/desafio-desktop1.png)
+Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-![alt tag](https://s3-us-west-1.amazonaws.com/1sti/desafio-desktop2.png)
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-Mobile responsivo:
+## Learn More
 
-![alt tag](https://s3-us-west-1.amazonaws.com/1sti/desafio-mobile1.png)
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-![alt tag](https://s3-us-west-1.amazonaws.com/1sti/desafio-mobile2.png)
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-## Dicas
+### Code Splitting
 
-* Tudo bem, até pode usar jquery. Se você não quiser usar (bônus), uma sugestão: Axios para a comunicação com a API.
-* HTML o mais semântico possível.
-* Branches com readme e instruções de implantação serão bem vindos.
-* Pré-processadores CSS como Stylus também.
-* Que tal utilizar BEM nos identificadores css? http://getbem.com/naming/ 
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+
+### Analyzing the Bundle Size
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+
+### Making a Progressive Web App
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+
+### Advanced Configuration
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+
+### Deployment
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+### `npm run build` fails to minify
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
