@@ -1,0 +1,53 @@
+.page {
+    text-align: center;
+}
+
+.page-main {
+  background-image: linear-gradient(#FF7F00, #FFBB00);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-title{
+  padding: 0 20px;
+}
+
+.page-title h1{
+  font-size: 5.5vmin;
+  color: white;
+}
+
+.page-title h3{
+  font-size: 4.5vmin;
+  color: white;
+}
+
+.ant-input {
+    border: transparent;
+    border-radius: 0px;
+    box-shadow: 5px 5px 15px 0px rgba(44,44,44,0.15);
+}
+
+.ant-card {
+    background: #FFF2E4;
+}
+
+.ant-btn {
+    border: transparent;
+    color: #FF8000;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.ant-btn:hover, .ant-btn:focus {
+    color: #b55d05;
+    background-color: transparent;
+    border-color: #FF8000;
+}
+
+.ant-btn:hover, .ant-btn:focus, .ant-btn:active, .ant-btn.active {
+    background: transparent;
+}
